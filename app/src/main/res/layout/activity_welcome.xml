@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/background_design"
     android:layout_height="match_parent"
-    android:background="@drawable/img_welcome"
-    android:orientation="vertical"
     tools:context=".WelcomeActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_weight="2"
         android:orientation="vertical">
@@ -18,15 +18,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textAlignment="center"
             android:layout_marginTop="100dp"
             android:text="Welcome to\n FoodBucks"
             android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:textSize="50sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:text="Your favourite foods delivered \nfast at your door."
             android:textColor="@color/black"
             android:textSize="20sp" />
@@ -36,7 +37,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_margin="20dp"
         android:layout_weight="1"
         android:orientation="vertical">
@@ -91,6 +93,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
             android:padding="10dp">
 
             <TextView
@@ -111,6 +114,4 @@
 
         </LinearLayout>
     </LinearLayout>
-
-
-</LinearLayout>
+</RelativeLayout>
