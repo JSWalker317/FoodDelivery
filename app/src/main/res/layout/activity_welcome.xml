@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_welcome"
-    android:elevation="3dp"
+    android:background="@drawable/background_design"
     android:orientation="vertical"
-    app:background="@drawable/background_design"
     tools:context=".WelcomeActivity">
 
     <LinearLayout
