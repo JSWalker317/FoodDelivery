@@ -3,10 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background_design"
+    android:background="@drawable/img_welcome"
     android:layout_height="match_parent"
     tools:context=".WelcomeActivity">
-
+    <ImageView
+        android:background="@drawable/background_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -83,7 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="@drawable/custom_edt_boder"
+            android:background="@drawable/custom_btn2"
             android:backgroundTint="@null"
             android:text="Start with email or phone"
             android:textColor="@color/white"
