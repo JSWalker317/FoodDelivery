@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodDelivery">
         <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OnBoardingActivity"
+            android:exported="true" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity

@@ -8,7 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-private const val SPLASH = 4000
+private const val SPLASH = 3000
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,7 +26,7 @@ class SplashActivity : AppCompatActivity() {
         textView.setAnimation(bottomAnim)
 
         Handler().postDelayed({
-            val intent = Intent(this, WelcomeActivity::class.java)
+            val intent = Intent(this, OnBoardingActivity::class.java)
             startActivity(intent)
             finish()
         }, SPLASH.toLong())
